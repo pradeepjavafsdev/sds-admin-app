@@ -4,7 +4,7 @@ export function NavBar({ title }: { title: string }) {
   return (
     <View style={styles.navBar}>
       <Image
-        source={require('@/assets/images/icon.png')}
+        source={require('@/assets/images/sdslogo.png')}
         style={styles.logo}
       />
       <Text style={styles.title}>{title}</Text>
